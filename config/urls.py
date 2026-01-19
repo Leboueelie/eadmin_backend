@@ -11,6 +11,6 @@ urlpatterns = [
     path('admin/', admin.site.urls),
 
     # Routes de l'API version 1
-    path('api/v1/', include('config.api_urls_v1')),
+    path('', include('config.api_urls_v1')),
 
 ]
