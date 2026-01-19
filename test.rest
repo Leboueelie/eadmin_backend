@@ -1,0 +1,16 @@
+POST http://127.0.0.1:8000/api/v1/auth/login/
+Content-Type: application/json
+
+{
+    "username": "elie",
+    "password": "miracle17"
+}
+
+####
+POST http://127.0.0.1:8000/api/v1/rendez-vous/
+Authorization: Token a04d5257fa62e12c974b260e41b3c23ec579b70a
+Content-Type: application/json
+
+{
+    "creneau": 3
+}
